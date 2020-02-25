@@ -1,9 +1,7 @@
 package io.dileep.myProject.models;
 
-import java.util.UUID;
-
 public class Alert {
-	private String id = UUID.randomUUID().toString();
+	private String id;
 	private String owner;
 	private String source;
 	private String type;
